@@ -4,97 +4,114 @@ import { ResumeData } from './types';
 export const RESUME_DATA: ResumeData = {
   name: "Shivam Singh Bisht",
   title: "Software Engineer II",
-  location: "Noida / Ghaziabad, India",
+  location: "Ghaziabad, Uttar Pradesh, India",
   contact: {
     phone: "+91-9315254390",
     email: "bishtshivam096@gmail.com",
-    linkedin: "https://www.linkedin.com/in/shivambisht2001/",
+    linkedin: "https://linkedin.com/in/shivambisht2001",
     github: "https://github.com/shivam-S-bisht"
   },
-  summary: "Software Engineer II specializing in high-performance web and mobile ecosystems. 4+ years of experience scaling products for millions of users at Daxko and Byju’s. Expert in React, React Native, and SvelteKit. Currently open for Full-time, Contract, and Freelance opportunities.",
+  summary: "Results-driven Software Engineer with 4+ years of expertise in architecting scalable web and mobile applications. Specialized in JavaScript/TypeScript with hands-on experience in React.js, Next.js, SvelteKit, Node.js, and React Native. Proven track record of delivering 40+ production applications across iOS and Android with measurable business impact.",
   experience: [
     {
-      role: "Software Engineer 2",
+      role: "Software Engineer II",
       company: "Daxko",
-      location: "Noida",
-      period: "Aug 2023 – Present",
+      location: "Noida, India",
+      period: "August 2023 – Present",
       points: [
-        "Architected hybrid applications using SvelteKit and React Native, streamlining cross-platform deployment.",
-        "Engineered an in-house OTA (Over-The-Air) update solution for Expo, drastically reducing deployment friction.",
-        "Launched 40+ white-labeled fitness apps for iOS and Android, managing complex CI/CD pipelines.",
-        "Integrated critical mobile features: Apple HealthKit, push notifications, and deep linking."
+        "Successfully led migration from Capacitor to React Native for 40+ applications, achieving modern UI, unified cross-platform experience, API level 34 compliance, and 35% reduction in bug count.",
+        "Architected OTA update system from scratch enabling single bundle deployment for 1000+ white-labeled apps, eliminating app store resubmissions and reducing update time from 2-3 weeks to under 5 minutes.",
+        "Used AI-first development approach integrating GitHub Copilot with Figma for automated design-to-code workflow, generating 200+ production-ready components and reducing development time by 60%.",
+        "Key contributor to 'One UI' library used across 3 teams; designed database-driven feature flag architecture enabling zero-downtime gradual migration rollout.",
+        "Architected separate authentication principals for React Native, Capacitor, and cron jobs, eliminating 100% of API rate limit errors for 10k+ daily active users.",
+        "Resolved critical database performance bottlenecks by optimizing queries and deploying read replicas, improving query response time by 75% (from 10s to 1s).",
+        "Led Cloudflare infrastructure migration for 15+ services and championed TDD achieving 85% code coverage with Jest."
       ]
     },
     {
-      role: "Software Engineer 1",
-      company: "Byju’s Exam Prep",
-      location: "Noida",
-      period: "Jan 2022 – Aug 2023",
+      role: "Software Engineer I (Full Stack Engineer)",
+      company: "Byju's Exam Prep",
+      location: "Noida, India",
+      period: "January 2022 – August 2023",
       points: [
-        "Revitalized web platforms using Next.js and GraphQL, achieving a 98% improvement in Core Web Vitals.",
-        "Developed a real-time polling feature using GraphQL subscriptions, increasing user engagement.",
-        "Built a custom UI component library using Svelte and Vite for internal ecosystem consistency.",
-        "Scaled organic traffic from 13k to 60k daily users through strategic SEO engineering."
+        "Built framework-agnostic UI component library with 50+ reusable components using Svelte and Vite, reducing code duplication by 40%.",
+        "Managed and mentored a team of 2-3 engineers, conducting 20+ code reviews weekly.",
+        "Enhanced real-time chat system to process 1k+ concurrent messages, reducing message latency by 50%.",
+        "Architected custom WordPress theme with advanced SEO features, improving Core Web Vitals scores to 90+.",
+        "Built real-time polling system using GraphQL subscriptions handling 5k+ concurrent polls for 10k+ live class participants.",
+        "Delivered impact: 98% improvement in page performance, 1.5x boost in lead conversions, and 360% surge in organic traffic (13k to 60k users/day)."
       ]
     },
     {
-      role: "Software Engineer",
-      company: "Datapitcher",
+      role: "Software Engineer (Full Stack Developer)",
+      company: "DataPitcher",
       location: "Remote",
-      period: "Jul 2021 – Jan 2022",
+      period: "July 2021 – January 2022",
       points: [
-        "Delivered full-stack web platforms using React.js and Django REST Framework.",
-        "Lead a cross-functional team of 3 developers on high-priority client projects.",
-        "Managed cloud infrastructure for production and staging environments."
+        "Designed and developed full-stack web application from inception using React.js with Redux for centralized state management.",
+        "Constructed robust backend infrastructure leveraging Django REST Framework, GraphQL, and MySQL database.",
+        "Provided technical leadership to a team of 2-3 developers, coordinating delivery across 5+ client engagements.",
+        "Established and maintained production and staging deployment environments ensuring maximum availability."
       ]
     }
   ],
   skills: [
-    { name: "Frontend", skills: ["React.js", "Next.js", "SvelteKit", "TypeScript", "JavaScript", "Tailwind CSS"] },
-    { name: "Mobile", skills: ["React Native", "Expo", "Capacitor", "HealthKit"] },
-    { name: "Backend", skills: ["Node.js", "Django REST", "GraphQL", "MySQL"] },
-    { name: "Tools", skills: ["Docker", "Git", "CI/CD", "GA4/GTM", "Firebase", "OTA Updates"] }
+    { name: "Languages & Frontend", skills: ["JavaScript", "TypeScript", "React.js", "Next.js", "SvelteKit", "HTML5", "CSS", "Webpack", "Svelte", "Vite", "Apollo GraphQL"] },
+    { name: "Mobile Development", skills: ["React Native", "Capacitor", "Expo", "OTA Updates", "White-labeling"] },
+    { name: "Backend & Databases", skills: ["Node.js", "Django REST", "GraphQL", "Flask", "MySQL", "REST APIs", "WebRTC"] },
+    { name: "DevOps & Tools", skills: ["Git", "CI/CD", "GitLab", "Docker", "Nginx", "Cloudflare", "Instana", "Rapid7"] },
+    { name: "Analytics & SEO", skills: ["GTM", "GA4", "Firebase Analytics", "Clevertap", "SEO"] },
+    { name: "Testing & Others", skills: ["Jest", "React Testing Library", "WordPress", "NLP"] }
   ],
   projects: [
     {
-      title: "Icarus Football Schools",
-      description: "A comprehensive hybrid app built with Capacitor and SvelteKit featuring subscription handling and session management for elite football training.",
-      tags: ["SvelteKit", "Capacitor", "Mobile"],
+      title: "Freedrobe",
+      description: "Sustainable wardrobe management app with React Native featuring storage, cleaning, and recycling services. Launched to 1k+ users in first month.",
+      tags: ["React Native", "Expo", "AI", "Firebase"],
       links: [
-        { type: "App Store", url: "https://apps.apple.com/in/app/icarus-football-schools/id6642678272" },
-        { type: "Play store", url: "https://play.google.com/store/apps/details?id=com.icarusfs.app&pcampaignid=web_share" }
+        { type: "Play store", url: "https://play.google.com/store/apps/details?id=com.freedrobe.mobile" },
+        { type: "App Store", url: "https://apps.apple.com/us/app/freedrobe/id6745894494" }
       ]
     },
     {
-      title: "Emotion-based Sentiment System",
-      description: "ML-powered system using Keras and Haar cascade for real-time employee expression analysis and HR reporting.",
-      tags: ["Python", "Keras", "ML"],
+      title: "Icarus Football Schools",
+      description: "Hybrid app using Capacitor and SvelteKit with session management, payments, and OTA updates. Deployed across 10+ academies.",
+      tags: ["SvelteKit", "Capacitor", "Mobile", "OTA"],
+      links: [
+        { type: "Play store", url: "https://play.google.com/store/apps/details?id=com.icarusfootballschools.app" },
+        { type: "App Store", url: "https://apps.apple.com/app/icarus-football-schools/id6738602068" }
+      ]
+    },
+    {
+      title: "Expression Sentiment Analysis",
+      description: "ML solution using Keras for facial expression recognition across 8 emotional states. Achieved 92% accuracy.",
+      tags: ["Python", "Keras", "ML", "GitHub"],
       links: [{ type: "Project Link", url: "https://github.com/shivam-S-bisht/shankara-hacks.git" }]
     },
     {
-      title: "Agro-Detect",
-      description: "AI-driven agricultural platform providing crop disease detection and soil-based crop recommendations.",
-      tags: ["Python", "React", "ML"],
+      title: "Agro-Tech Platform",
+      description: "ML-powered crop recommendation and disease identification system. Trained on 10k+ images with 85% accuracy.",
+      tags: ["Python", "ML", "React", "GitHub"],
       links: [{ type: "Project Link", url: "https://github.com/shivam-S-bisht/jai-kisaan.git" }]
-    },
-    {
-      title: "High-Performance WP Engine",
-      description: "Custom WordPress ecosystem migration from Next.js, optimized for LCP/FCP and structured schema SEO.",
-      tags: ["PHP", "Next.js", "SEO"],
-      links: [{ type: "Project Link", url: "https://github.com/shivam-S-bisht" }]
     }
   ],
   education: {
-    degree: "B.Tech, Computer Science",
+    degree: "Bachelor of Technology in Computer Science",
     institution: "Ajay Kumar Garg Engineering College (AKGEC)",
-    location: "Ghaziabad",
+    location: "Ghaziabad, India",
     period: "2018 – 2022",
     achievements: ["Graduated with Distinction", "University Football Captain"]
   },
   certifications: [
-    "ACI Nationwide Hackathon Challenge Winner (2019)",
-    "IISF Kolkata Project Showcase Finalist (2019)",
-    "2nd Prize, Anveshana Science Exhibition"
+    "Deep Learning Specialization (DeepLearning.AI)",
+    "Programming with Google Go Specialization (UC Irvine)",
+    "The Last Algorithms Course You'll Need",
+    "The Hard Parts of Asynchronous JavaScript",
+    "The Hard Parts of Functional JavaScript",
+    "Intermediate React Native v2",
+    "Introduction to Backend Architectures",
+    "Challenge ACI Nationwide Hackathon Winner (Oct 2019)",
+    "IISF Kolkata Project Showcase Finalist (2019)"
   ],
   interests: ["Football", "Badminton", "Trekking", "Technical Writing"]
 };
