@@ -12,7 +12,7 @@ export interface Project {
   description: string;
   tags: string[];
   links?: {
-    type: 'Play store' | 'App Store' | 'Project Link';
+    type: 'Play store' | 'App Store' | 'Project Link' | 'Chrome Extension' | 'GitHub Registry';
     url: string;
   }[];
 }

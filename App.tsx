@@ -89,7 +89,7 @@ const App: React.FC = () => {
 
         {/* Technology Stack Section */}
         <Section id="skills" title="Technology Stack">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {RESUME_DATA.skills.map((category, idx) => (
               <div key={idx} className="glass-card p-8 rounded-3xl border border-white/10 group transition-all duration-500 hover:border-blue-500/20">
                 <div className="flex items-center gap-3 mb-8">
@@ -116,12 +116,12 @@ const App: React.FC = () => {
           <div className="grid md:grid-cols-12 gap-16">
             <div className="md:col-span-4 space-y-8">
               <p className="text-slate-400 text-lg leading-relaxed font-light">
-                Bridging the gap between design and scalable engineering with a focus on performance and cross-platform consistency.
+                Bridging the gap between design and scalable engineering with a focus on AI-driven development and cross-platform consistency.
               </p>
               <div className="space-y-6">
                 <div className="p-6 glass-card rounded-3xl border-l-4 border-l-blue-500">
-                  <h4 className="font-black text-white text-3xl mb-1">40+</h4>
-                  <p className="text-slate-500 font-bold uppercase text-[10px] tracking-widest">Mobile Apps Launched</p>
+                  <h4 className="font-black text-white text-3xl mb-1">60+</h4>
+                  <p className="text-slate-500 font-bold uppercase text-[10px] tracking-widest">Apps Launched</p>
                 </div>
                 <div className="p-6 glass-card rounded-3xl border-l-4 border-l-purple-500">
                   <h4 className="font-black text-white text-3xl mb-1">98%</h4>
